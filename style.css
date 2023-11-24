@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.main {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    background-color: rgb(83, 81, 81);
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.board > div {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(0, 101, 88);
+    border: 10px solid #047c7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    border-radius: 30px;
+   
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
